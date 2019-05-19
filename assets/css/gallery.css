@@ -14,18 +14,19 @@ header {
 }
 
 
-.line {
-    color: gray;
+hr {
+
     margin: 0;
     
 }
 
 .innerb{
     background: whitesmoke;
-    margin-left: 175px;
-    margin-right: 175px;
-    
-
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 28px;    
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
     color: whitesmoke;
     position: absolute;
     top: 0;
-    left: 250px;
+    left: 400px;
 
 }
 
@@ -46,7 +47,6 @@ h2 {
     background-color: whitesmoke;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-left: 50px;
     font-size: 30px;
     border-bottom: 10px;
     border-color: black;
@@ -60,14 +60,15 @@ h2 {
 .r {
     color: gray;
     position: relative;
-    left: 1080px;
+    left: 900px;
     margin: 10px;
 }
 
 .container {
     background-image: url("https://i.gyazo.com/b868becf670a4d8a7c8d27bf0e17360a.png");
-    padding-bottom: 115px;
-    padding-top: 115px;    
+    padding-top: 20px;
+    padding-bottom: 95px;
+      
     
 }
 
@@ -78,11 +79,17 @@ p {
     
 }
 
+.img {
+    max-width: 50%;
+    max-height: 50%;
+
+}
+
 
 .bot {
    
     background: gray;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-top: 25px;
     text-align: center;
 }
